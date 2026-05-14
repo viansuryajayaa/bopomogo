@@ -1,17 +1,37 @@
-# bopomogo
+# BopomoGo
 
-A new Flutter project.
+BopomoGo is a Taiwan-style AI translator built with Flutter.
 
-## Getting Started
+## Overview
+BopomoGo is designed to help users translate more naturally into Traditional Chinese as used in Taiwan, while also giving AI-assisted communication support such as tone control and reply suggestions.
 
-This project is a starting point for a Flutter application.
+## Current MVP Direction
+- Two-way translation
+- Tone selection
+- Lightweight use-case selection
+- Alternative phrasing
+- Suggested replies
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- Flutter
+- Dart
+- Planned backend API for AI features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Current Status
+This repository currently contains:
+- the initial Flutter app scaffold
+- a first translation home screen
+- modular UI widgets for the translation flow
+- mock translation result behavior for early development
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run the App
+```bash
+flutter pub get
+flutter run
+```
+
+## Run Checks
+```bash
+flutter analyze
+flutter test
+```
